@@ -10,4 +10,3 @@ var root = new StackPane();
 root.children.add(button);
 $STAGE.scene = new Scene(root, 150, 75);
 $STAGE.show();
-
