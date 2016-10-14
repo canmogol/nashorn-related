@@ -1,5 +1,5 @@
 #!/usr/local/apps/jdk/bin/jjs 
-`ls /DevelopmentEnvironment/workspaces/workspace_kay_stream/`
+`ls /DevelopmentEnvironment/workspaces/workspace_project/`
 	.trimRight()
 	.split("\n")
 	.filter(function(file){
