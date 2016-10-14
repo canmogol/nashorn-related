@@ -3,8 +3,9 @@
 	.trimRight()
 	.split("\n")
 	.filter(function(file){
-		return file.startsWith("com.kay");
-	}).forEach(function(file){
+		return file.startsWith("com.project.name");
+	})
+	.forEach(function(file){
 		print("cd "+file);
 		print("mvn clean install");
 		print("cd ..");
